@@ -10,7 +10,7 @@ export function ItemMenu({ name }: Props) {
     return (
         <button className="w-full flex items-center gap-3">
             <span className="text-white font-bold">{name}</span>
-            <Image src={Arrow} alt="Arrow" />
+            <Image src={Arrow} alt="Arrow"/>
         </button>
     )
 }
