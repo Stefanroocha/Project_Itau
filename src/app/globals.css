@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary-blue: #106EB0;
+  --color-primary-orange: #EC7000;
+  --color-primary-gray: #33303E;
+  --color-second-gray: #4E4B59;
+  --color-gray-phone: #F4F4F4;
+  --color-text-gray: #7A7786;
+  --color-opacity-gray: rgba(100, 80, 57, 0.1);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-size: 14px
+}
