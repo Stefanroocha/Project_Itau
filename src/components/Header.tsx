@@ -19,8 +19,8 @@ export function Header() {
         <header className="flex items-center w-full h-20 bg-[var(--color-primary-orange)]">
             <Container className="flex items-center justify-between w-full max-w-[1246px] px-2.5 lg:px-[15px] mx-auto">
                 <div className="flex flex-1 items-center justify-between">
-                    <div className="flex items-center gap-14 sm:w-full sm:justify-between">
-                    <Image src={Logo} alt="Logo" className="hidden sm:block"/>
+                    <div className="flex items-center gap-14 w-full justify-between">
+                    <Image src={Logo} alt="Logo"/>
                     <button
                     className="sm:max-sm:block xl:hidden"
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -58,9 +58,9 @@ export function Header() {
                     <Search/>
                 </div>
             </Container>
-            <button className="w-[35px] flex lg:w-[25%] xl:[19%] items-center justify-end lg:justify-center gap-4 h-20 pr-2.5 lg:pl-10 lg:pr-10 bg-transparent lg:bg-[var(--color-primary-blue)]">
+            <button className="hidden w-[35px] lg:flex lg:w-[25%] xl:[19%] items-center justify-end lg:justify-center gap-4 h-20 pr-2.5 lg:pl-10 lg:pr-10 bg-transparent lg:bg-[var(--color-primary-blue)]">
                 <Image src={IconUser} alt="Search" className="w-7 lg:w-5"/>
-                    <span className="hidden lg:flex text-white font-bold">Acessar conta</span>
+                    <span className="text-white font-bold">Acessar conta</span>
                 </button>
         </header>
     )
